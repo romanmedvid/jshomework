@@ -20,5 +20,7 @@ function solveQr(a, b, c,){
 }
 }
 function discrCalc(a, b, c) {
-    return ((b * b) - 4 * (a * c));
+    let d = (((b * b) - 4 * (a * c)));
+    let e = Math.sqrt(d);
+    return e;
     }
